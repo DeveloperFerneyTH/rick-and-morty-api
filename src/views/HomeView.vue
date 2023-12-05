@@ -1,10 +1,10 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Character from '@/components/Character.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Character />
   </main>
 </template>
 
@@ -12,7 +12,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 export default {
   name: 'HomeView',
   components: {
-    TheWelcome
+    Character
   },
 }
 </script>
