@@ -1,8 +1,21 @@
 <template>
-  <div class="about">
-    <h1>Ubicaciones</h1>
-  </div>
+  <main>
+    <Locations />
+  </main>
 </template>
+
+<script setup>
+import Locations from '@/components/Locations.vue'
+</script>
+
+<script>
+export default {
+  name: "LocationView",
+  components: {
+    Locations
+  }
+}
+</script>
 
 <style>
 @media (min-width: 1024px) {
