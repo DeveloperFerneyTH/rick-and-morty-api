@@ -11,7 +11,7 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Personajes
+      A veces la ciencia es mucho más arte que ciencia, Morty. Mucha gente no entiende eso.
     </h3>
   </div>
 </template>
